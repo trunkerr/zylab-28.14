@@ -15,9 +15,9 @@ class ItemToPurchase {
       void SetDescription(string description);
       string GetDescription() const;
       void SetPrice(int price);
-			int GetPrice() const;
+      int GetPrice() const;
       void SetQuantity(int quantity);
-			int GetQuantity() const;
+      int GetQuantity() const;
       void PrintItemCost();
       void PrintItemDescription();
    
