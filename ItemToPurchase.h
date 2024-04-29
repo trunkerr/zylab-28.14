@@ -13,11 +13,11 @@ class ItemToPurchase {
       void SetName(string name);
       string GetName() const;
       void SetDescription(string description);
-		string GetDescription() const;
+			string GetDescription() const;
       void SetPrice(int price);
-		int GetPrice() const;
+			int GetPrice() const;
       void SetQuantity(int quantity);
-		int GetQuantity() const;
+			int GetQuantity() const;
       void PrintItemCost();
       void PrintItemDescription();
    
