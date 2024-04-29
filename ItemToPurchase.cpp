@@ -19,3 +19,43 @@ void ItemToPurchase::SetName(string name) {
 string ItemtoPurchase::GetName() const {
     return itemName;
 }
+
+//Sets item description
+void ItemToPurchase::SetDescription(string description) {
+    itemDescription = description;
+}
+
+// Returns item description
+string ItemtoPurchase::GetDescription() const {
+    return itemDescription;
+}
+
+// Sets item price
+void ItemToPurchase::SetPrice(int price) {
+    itemPrice = price;
+}
+
+// Returns item price
+int ItemtoPurchase::GetPrice() const {
+    return itemPrice;
+}
+
+// Sets item quantity
+void ItemToPurchase::SetQuantity(int quantity) {
+    itemQuantity = quantity;
+}
+
+// Returns item quantity
+int ItemtoPurchase::GetQuantity() const {
+    return itemQuantity;
+}
+
+// Print cost
+void ItemToPurchase::PrintItemCost() const {
+    cout << itemName << "" << itemQuantity << " @ $" << itemPrice << " = $" << itemQuantity * itemPrice << endl;
+}
+
+// Print description
+void ItemtoPurchase::PrintItemDescription() const {
+    cout << itemName << ": " << itemDescription << endl;
+}
