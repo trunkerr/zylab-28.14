@@ -1,12 +1,9 @@
 #include <iostream>
 #include <string>
+#include "ItemToPurchase.h"
 using namespace std;
 
-class ItemtoPurchasse {
-private:
-  string itemName;
-  string itemDescription;
-  int itemPrice;
-  int itemQuantity;
+//Default Constructor
+ItemtoPurchase::ItemToPurchase() : itemName("none"), itemDescription("none"), itemDescription("none"), itemPrice(0), itemQuantity(0) {}
 
-public:
+ItemtoPurchase::ItemToPurchase(string  name, string description, int price, int quantity) : itemName(name)
