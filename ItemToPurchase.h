@@ -9,15 +9,19 @@ class ItemToPurchase {
    
    public:
       ItemToPurchase();
-      ItemToPurchase(string name, string description, int price = 0, int quantity = 0);
+      ItemToPurchase(string name, string description, 
+                  int price, int quantity = 0);
+      
       void SetName(string name);
-      string GetName() const;
       void SetDescription(string description);
-      string GetDescription() const;
       void SetPrice(int price);
-      int GetPrice() const;
       void SetQuantity(int quantity);
+      
+      string GetName() const;
+      string GetDescription() const;
+      int GetPrice() const;
       int GetQuantity() const;
+      
       void PrintItemCost();
       void PrintItemDescription();
    
